@@ -1,0 +1,10 @@
+.search{
+  color:green;
+  margin-left:1em;
+}
+selectize{
+  width:100px;
+margin-left:2px;
+  color:red;
+  list-style-type:square;
+}

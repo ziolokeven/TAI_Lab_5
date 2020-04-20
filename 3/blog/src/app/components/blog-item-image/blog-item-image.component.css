@@ -1,0 +1,21 @@
+image{
+  margin-left: 20em;
+}
+ul
+{
+  display: block;
+}
+
+.list-group-item{
+  display:inline-block;
+  background-color: grey;
+}
+.list-group list-group-horizontal{
+  display:block;
+  padding-left: 2em;
+}
+div.zdjecia
+{
+  display: inline;
+  background-color: blue;
+}
