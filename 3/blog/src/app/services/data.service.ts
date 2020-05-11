@@ -20,4 +20,8 @@ getById(id) {
 getByText(data) {
   return this.http.post(this.url + '/api/posts/', data);
 }
+  createOrUpdate(post) {
+    return this.http.post(`${this.url}/api/posts`, post);
+  }
+
 }
