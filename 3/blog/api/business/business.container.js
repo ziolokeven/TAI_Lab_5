@@ -18,4 +18,8 @@ const createBusinessContainer = (request, config) => {
   };
 };
 
-export default createBusinessContainer;
+export default {
+  createBusinessContainer,
+  getUserManager: getter(userManager)
+
+};
